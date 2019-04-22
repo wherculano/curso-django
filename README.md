@@ -1,7 +1,7 @@
 # curso-django
 Código desenvolvido no módulo de Django do [Site Python Pro](https://www.python.pro.br)
 
-Aplicação disponível em [Heroku](https://dashboard.heroku.com/apps/cursodjangopythonpro)
+Aplicação disponível em [Heroku](https://cursodjangopythonpro.herokuapp.com)
 
 [![Build Status](https://travis-ci.org/wherculano/curso-django.svg?branch=master)](https://travis-ci.org/wherculano/curso-django)
 [![codecov](https://codecov.io/gh/wherculano/curso-django/branch/master/graph/badge.svg)](https://codecov.io/gh/wherculano/curso-django)
