@@ -9,6 +9,9 @@ flake8 = "*"
 [packages]
 django = "*"
 gunicorn = "*"
+sync = "*"
+pytest-django = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.6"
