@@ -14,6 +14,7 @@ django = "*"
 gunicorn = "*"
 sync = "*"
 pytest = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.6"
