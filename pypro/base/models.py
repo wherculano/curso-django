@@ -37,6 +37,7 @@ class UserManager(BaseUserManager):
 
         return self._create_user(email, password, **extra_fields)
 
+
 class User(AbstractBaseUser, PermissionsMixin):
     """
     App base User
@@ -59,7 +60,7 @@ class User(AbstractBaseUser, PermissionsMixin):
             'Unselect this instead of deleting accounts.'
         ),
     )
-    date_joined = models.DateTimeField(_('date joined'), default=timezone.now)  # Define quando o usuario entrou no sistema
+    date_joined = models.DateTimeField(_('date joined'), default=timezone.now)  # Define qdo o usuario entrou no sistema
 
     objects = UserManager()
 
