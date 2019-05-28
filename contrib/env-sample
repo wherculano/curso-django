@@ -1,6 +1,6 @@
 DEBUG=False
 SECRET_KEY=defina sua chave secreta
-ALLOWED_HOSTS=localhost, 127.0.0.1
+ALLOWED_HOSTS=localhost,127.0.0.1,cursodjangopythonpro.herokuapp.com
 DATABASE_URL=postgres://postgres:postgres@localhost/testdb
 # Configuracoes do AWS
 AWS_ACCESS_KEY_ID =
