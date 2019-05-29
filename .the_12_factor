@@ -2,47 +2,52 @@
 
 I. Base de Código
 Uma base de código com rastreamento utilizando controle de revisão, muitos deploys
-
+- Utilizado o Git como controlador de versão e o Heroku para deploy automatico para o processo de entrega contínua
 
 II. Dependências
 Declare e isole as dependências
-
+- Utilizado o pipenv
 
 III. Configurações
 Armazene as configurações no ambiente
-
+- Com o decouple foram desacopladas as configurações de instancias deixando as configurações no .env/.env-sample ou nas variaves de ambiente
 
 IV. Serviços de Apoio
 Trate os serviços de apoio, como recursos ligados
-
+- Foi utilizado o Sentry como serviço de apoio conectado à aplicação
 
 V. Build, release, run
 Separe estritamente os builds e execute em estágios
-
+- O processo de linter foi feito com flake8, teste com o pytest e o processo de build/deploy integrado com Git e Heroku.
 
 VI. Processos
 Execute a aplicação como um ou mais processos que não armazenam estado
-
+- Os unicos serviços que dependem de armazenamento no projeto são o BD e o S3 que estão devidamente isolados.
+Fora isso o projeto pode ser reiniciado normalmente que funcionará.
 
 VII. Vínculo de porta
 Exporte serviços por ligação de porta
-
+- Utilizado (indiretamente) com o postgres com o porta 5432
 
 VIII. Concorrência
 Dimensione por um modelo de processo
-
+- Foi instalado o servidor de aplicação gunicorn que gerencia os processos e a concorrência da aplicação
 
 IX. Descartabilidade
 Maximizar a robustez com inicialização e desligamento rápido
-
+- Localmente o servidor foi (re)iniciado rapidamente por não haver nenhuma tarefa pesada no processo
+de inicialização da aplicação.
 
 X. Dev/prod semelhantes
 Mantenha o desenvolvimento, teste, produção o mais semelhante possível
-
+- As configurações foram separadas em arquivos diferentes, conectadas com o S3 e foi emulado o comportamento no sistema
+de arquivo local no ambiente de desenvolvimento. Poderia tambem ser instaldo o Postgres localmente ou em um container
+para que o ambiente local ficasse mais próximo ainda de desenvolvimento.
 
 XI. Logs
 Trate logs como fluxo de eventos
-
+- Logs e gerenciamento/monitoramento de Erros foram delegados para o Sentry.
 
 XII. Processos de Admin
 Executar tarefas de administração/gerenciamento como processos pontuais
+- Atutomatizar o processo de entrega da aplicação (automatizar processos manuais/repetidos).
