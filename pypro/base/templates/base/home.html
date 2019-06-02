@@ -9,7 +9,7 @@ produzir a URL correta de onde estão os arqivos estáticos. Deixando de ser est
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Python Pro</title>
-
+    <link rel="'icon" type="imgage/png" href="{% static 'img/favicon.png'%}"/>
     <meta name="description" content="Página do curso Python Pro">
     <meta name="author" content="Wagner Herculano/Renzo Nuccitelli">
 
@@ -69,15 +69,11 @@ produzir a URL correta de onde estão os arqivos estáticos. Deixando de ser est
             </div>
 			<div class="jumbotron">
                 <h2>
-                    Hello, world!
+                    Curso de Python com Luciano Ramalho
                 </h2>
                 <p>
-                    This is a template for a simple marketing or informational website. It includes a large callout
-                    called the hero unit and three supporting pieces of content. Use it as a starting point to create
-                    something more unique.
-                </p>
-                <p>
-                    <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                    Confira em breve mais informaçẽs sobre o curso que será ministrado pelo autor do livro
+                    <a href="http://shop.oreilly.com/product/0636920032519.do" target="_blank">Fluent Python</a>
                 </p>
             </div>
         </div>
@@ -86,15 +82,20 @@ produzir a URL correta de onde estão os arqivos estáticos. Deixando de ser est
         <div class="col-md-12">
             <div class="card">
                 <h5 class="card-header">
-                    Card title
+                    Mais detalhes sobre o instrutor
                 </h5>
                 <div class="card-body">
                     <p class="card-text">
-                        Card content
+                        <img src="{% static 'img/luciano-ramalho.png' %}" alt="Foto Luciano Ramalho"
+                             class="img-thumbnail float-left mr-3"/>
+                        Ramalho é sócio e professor na <a href="https://www.python.pro.br">Python Pro</a> e autor do livro Python Fluente.
+                        Foi diretor técnico do Brsil Online, primeiro portal da Abril S/A na Web.
+                        Liderou times para os portais IDG Now, BOL, UOL, AOL Brasil e outros, usando Python desde 1998.
+                        Como instrutor, atendeu clientes como Citibank, CPqD, Serpro, Presidência da República, Globo.com e Itaú.
+                        Palestrante em eventos internacionais como FISL, PyCon US e OSCON. Ajudou a criar a Associação Python Brasil
+                        e foi seu presidente. É mebro da Python Software Foundation e fundador do Garoa Hacker Clube, o primeiro
+                        hackerspace do Brasil.
                     </p>
-                </div>
-                <div class="card-footer">
-                    Card footer
                 </div>
             </div>
         </div>
