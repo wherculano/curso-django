@@ -53,10 +53,10 @@
         },
         "collectfast": {
             "hashes": [
-                "sha256:a0f7a714f58ccd7abd4f2a04279cb9c69c8af023c38f5b2628f7e2bc1ad93a68",
-                "sha256:f194cc3a7f7d502a487d80e473210173d6832fd4d363a83e6fe567344e077ecd"
+                "sha256:5b03ea0500527756ac344e01c71bfc2307644eaa49c7b9618229a58791ed3b8c",
+                "sha256:cb81e5ca81cacf2216ee3c556d84e344bf0a9ea86e0881a5d278dab54bc8805f"
             ],
-            "version": "==1.0.0"
+            "version": "==1.2.0"
         },
         "colorama": {
             "hashes": [
