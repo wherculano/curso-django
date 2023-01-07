@@ -172,3 +172,5 @@ SENTRY_DSN = config('SENTRY_DSN', default=None)
 
 if SENTRY_DSN:
     sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()])
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
