@@ -337,12 +337,8 @@
             "version": "==4.4.0"
         },
         "urllib3": {
-            "hashes": [
-                "sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc",
-                "sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==1.26.13"
+            "hashes": [],
+            "version": "==1.26.15"
         }
     },
     "develop": {
@@ -549,12 +545,8 @@
             "version": "==2.0.1"
         },
         "urllib3": {
-            "hashes": [
-                "sha256:47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc",
-                "sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==1.26.13"
+            "hashes": [],
+            "version": "==1.26.15"
         }
     }
 }
