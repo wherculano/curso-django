@@ -118,12 +118,8 @@
             "version": "==0.5"
         },
         "django-storages": {
-            "hashes": [
-                "sha256:31dc5a992520be571908c4c40d55d292660ece3a55b8141462b4e719aa38eab3",
-                "sha256:cbadd15c909ceb7247d4ffc503f12a9bec36999df8d0bef7c31e57177d512688"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==1.13.2"
+            "hashes": [],
+            "version": "==1.14.2"
         },
         "exceptiongroup": {
             "hashes": [
