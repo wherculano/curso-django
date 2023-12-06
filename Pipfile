@@ -1,18 +1,11 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-
-[dev-packages]
-flake8 = "*"
-pytest-django = "*"
-pytest-cov = "*"
-codecov = "*"
+name = "pypi"
 
 [packages]
 django = "*"
 gunicorn = "*"
-sync = "*"
 pytest = "*"
 python-decouple = "*"
 dj-database-url = "*"
@@ -22,5 +15,11 @@ collectfast = "*"
 django-debug-toolbar = "*"
 sentry-sdk = "*"
 
+[dev-packages]
+flake8 = "*"
+pytest-django = "*"
+pytest-cov = "*"
+codecov = "*"
+
 [requires]
-python_version = "3.8"
+python_version = "3.12"
