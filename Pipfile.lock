@@ -219,13 +219,8 @@
             "version": "==2.9.9"
         },
         "pytest": {
-            "hashes": [
-                "sha256:0d009c083ea859a71b76adf7c1d502e4bc170b80a8ef002da5806527b9591fac",
-                "sha256:d989d136982de4e3b29dabcc838ad581c64e8ed52c11fbe86ddebd9da0818cd5"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==7.4.3"
+            "hashes": [],
+            "version": "==8.0.1"
         },
         "python-dateutil": {
             "hashes": [
@@ -530,13 +525,8 @@
             "version": "==3.1.0"
         },
         "pytest": {
-            "hashes": [
-                "sha256:0d009c083ea859a71b76adf7c1d502e4bc170b80a8ef002da5806527b9591fac",
-                "sha256:d989d136982de4e3b29dabcc838ad581c64e8ed52c11fbe86ddebd9da0818cd5"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.7'",
-            "version": "==7.4.3"
+            "hashes": [],
+            "version": "==8.0.1"
         },
         "pytest-cov": {
             "hashes": [
