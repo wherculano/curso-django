@@ -124,12 +124,8 @@
             "version": "==1.0.1"
         },
         "packaging": {
-            "hashes": [
-                "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5",
-                "sha256:8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==23.2"
+            "hashes": [],
+            "version": "==24.0"
         },
         "pluggy": {
             "hashes": [
@@ -498,12 +494,8 @@
             "version": "==0.7.0"
         },
         "packaging": {
-            "hashes": [
-                "sha256:048fb0e9405036518eaaf48a55953c750c11e1a1b68e0dd1a9d62ed0c092cfc5",
-                "sha256:8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==23.2"
+            "hashes": [],
+            "version": "==24.0"
         },
         "pluggy": {
             "hashes": [
