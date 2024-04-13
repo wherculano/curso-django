@@ -268,12 +268,8 @@
             "version": "==1.16.0"
         },
         "sqlparse": {
-            "hashes": [
-                "sha256:5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3",
-                "sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c"
-            ],
-            "markers": "python_version >= '3.5'",
-            "version": "==0.4.4"
+            "hashes": [],
+            "version": "==0.5.0"
         },
         "typing-extensions": {
             "hashes": [
