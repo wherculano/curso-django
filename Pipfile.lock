@@ -91,12 +91,8 @@
             "version": "==0.5"
         },
         "django-storages": {
-            "hashes": [
-                "sha256:1db759346b52ada6c2efd9f23d8241ecf518813eb31db9e2589207174f58f6ad",
-                "sha256:51b36af28cc5813b98d5f3dfe7459af638d84428c8df4a03990c7d74d1bea4e5"
-            ],
-            "markers": "python_version >= '3.7'",
-            "version": "==1.14.2"
+            "hashes": [],
+            "version": "==1.14.4"
         },
         "gunicorn": {
             "hashes": [
