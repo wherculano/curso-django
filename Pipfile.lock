@@ -41,12 +41,8 @@
             "version": "==1.35.80"
         },
         "certifi": {
-            "hashes": [
-                "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8",
-                "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==2024.8.30"
+            "hashes": [],
+            "version": "==2024.12.14"
         },
         "collectfast": {
             "hashes": [
@@ -291,12 +287,8 @@
     },
     "develop": {
         "certifi": {
-            "hashes": [
-                "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8",
-                "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
-            ],
-            "markers": "python_version >= '3.6'",
-            "version": "==2024.8.30"
+            "hashes": [],
+            "version": "==2024.12.14"
         },
         "charset-normalizer": {
             "hashes": [
