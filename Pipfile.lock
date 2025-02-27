@@ -239,12 +239,8 @@
             "version": "==3.8"
         },
         "s3transfer": {
-            "hashes": [
-                "sha256:244a76a24355363a68164241438de1b72f8781664920260c48465896b712a41e",
-                "sha256:29edc09801743c21eb5ecbc617a152df41d3c287f67b615f73e5f750583666a7"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==0.10.4"
+            "hashes": [],
+            "version": "==0.11.3"
         },
         "sentry-sdk": {
             "hashes": [
