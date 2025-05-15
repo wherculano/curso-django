@@ -132,12 +132,8 @@
             "version": "==24.2"
         },
         "pluggy": {
-            "hashes": [
-                "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1",
-                "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==1.5.0"
+            "hashes": [],
+            "version": "==1.6.0"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -532,12 +528,8 @@
             "version": "==24.2"
         },
         "pluggy": {
-            "hashes": [
-                "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1",
-                "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==1.5.0"
+            "hashes": [],
+            "version": "==1.6.0"
         },
         "pycodestyle": {
             "hashes": [
