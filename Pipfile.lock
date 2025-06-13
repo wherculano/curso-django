@@ -564,13 +564,8 @@
             "version": "==8.3.4"
         },
         "pytest-cov": {
-            "hashes": [
-                "sha256:eee6f1b9e61008bd34975a4d5bab25801eb31898b032dd55addc93e96fcaaa35",
-                "sha256:fde0b595ca248bb8e2d76f020b465f3b107c9632e6a1d1705f17834c89dcadc0"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.9'",
-            "version": "==6.0.0"
+            "hashes": [],
+            "version": "==6.2.1"
         },
         "pytest-django": {
             "hashes": [
