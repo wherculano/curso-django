@@ -540,12 +540,8 @@
             "version": "==1.5.0"
         },
         "pycodestyle": {
-            "hashes": [
-                "sha256:46f0fb92069a7c28ab7bb558f05bfc0110dac69a0cd23c61ea0040283a9d78b3",
-                "sha256:6838eae08bbce4f6accd5d5572075c63626a15ee3e6f842df996bf62f6d73521"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==2.12.1"
+            "hashes": [],
+            "version": "==2.14.0"
         },
         "pyflakes": {
             "hashes": [
