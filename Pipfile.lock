@@ -491,13 +491,8 @@
             "version": "==7.6.9"
         },
         "flake8": {
-            "hashes": [
-                "sha256:049d058491e228e03e67b390f311bbf88fce2dbaa8fa673e7aea87b7198b8d38",
-                "sha256:597477df7860daa5aa0fdd84bf5208a043ab96b8e96ab708770ae0364dd03213"
-            ],
-            "index": "pypi",
-            "markers": "python_full_version >= '3.8.1'",
-            "version": "==7.1.1"
+            "hashes": [],
+            "version": "==7.3.0"
         },
         "idna": {
             "hashes": [
