@@ -582,12 +582,8 @@
             "version": "==4.9.0"
         },
         "requests": {
-            "hashes": [
-                "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760",
-                "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==2.32.3"
+            "hashes": [],
+            "version": "==2.32.5"
         },
         "urllib3": {
             "hashes": [
